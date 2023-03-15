@@ -58,9 +58,9 @@ async function importAnnotationsFromThirdPartyServer(serverURL) {
     // Ajouter les annotations importées à notre objet "annotations"
 }
 
-// Lignes pour servir le fichier client.html à la racine
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'formulaire.html'));
+// Lignes pour servir le fichier formulaire.html à la racine
+app.get("/formulaire", function(req, res){
+    res.sendFile("C:/Users/Enzo/Documents/Cours/IntegrationDonneesIntegrees/IntgrationDonneesIntegrees/formulaire.html")
 });
 
 // Démarrage du serveur
